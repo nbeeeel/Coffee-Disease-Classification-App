@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="camera">Camera</string>
+    <string name="disease_classify">Disease--Classify</string>
+    <string name="gallery">Gallery</string>
+    <string name="predict">Predict</string>
+    <string name="disease">Disease</string>
+</resources>

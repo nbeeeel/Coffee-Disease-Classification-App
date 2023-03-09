@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COFFEE LEAVES DISEASE DETECTION"
+        android:id="@+id/title"
+        android:textSize="25sp"
+        android:background="@drawable/title_bg"
+        android:textColor="@color/white"
+        android:paddingTop="15dp"
+        android:fontFamily="arial"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <FrameLayout
+        android:id="@+id/imageframe"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:foreground="@drawable/title_bg"
+        android:outlineProvider="bounds"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+     <FrameLayout
+        android:id="@+id/imageframe1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:foreground="@color/white"
+        android:outlineProvider="bounds"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+     <ImageView
+         android:layout_width="180dp"
+         android:layout_height="175dp"
+         android:layout_below="@+id/title"
+         android:contentDescription="Leaf image"
+         android:id="@+id/imageView"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="63dp"
+         tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/Camera"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/camera"
+        android:textSize="20sp" />
+     <Button
+         android:layout_width="150dp"
+         android:layout_height="50dp"
+         android:layout_below="@+id/Camera"
+         android:layout_marginTop="20dp"
+         android:background="@drawable/btn_bg"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/Gallery"
+         android:text="@string/gallery"
+         android:textSize="20sp"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/Gallery"
+         android:layout_marginTop="20dp"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/textPredict"
+         android:background="@drawable/title_bg"
+         android:textColor="@color/white"
+         android:fontFamily="serif"
+         android:includeFontPadding="true"
+         android:textAlignment="center"
+         android:text="@string/disease"
+         android:textStyle="bold"
+         android:textSize="30sp"/>
+     <Button
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textPredict"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Recommendation"
+        android:text="Recommendations"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Recommendation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/omdena" />
+
+    <TextView
+        android:id="@+id/Recommendations"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Gallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="241dp"
+        android:fontFamily="serif"
+        android:includeFontPadding="true"
+        android:text="Ethiopian Chapter"
+        android:textColor="#FF6200EE"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
