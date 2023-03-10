@@ -10,3 +10,7 @@ This app is based on java framework, and is a part of Omdena Ethiopian Chapter's
 + Miner
 + Rust
 + Phoma
+
+## The model used for the inference is VGG16
+The lite-version of the model is greater then 150MB and the apk file of the application is approx 170MB, hence they are secured in a google drive.
+The link to the drive folder containing the android apk file and .tflite files is in the requirements file. 
