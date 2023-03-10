@@ -1,0 +1,2 @@
+The link to the tensorflow lite model : https://drive.google.com/file/d/1fXwIYYWq2tetbp-z4QeZBdyaG7kbVvX7/view?usp=share_link
+The link to the android application (.apk) file : 
